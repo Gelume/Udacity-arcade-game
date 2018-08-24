@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    position: relative;
+}
+
+.health, .restartArrow {
+  display: inline;
+}
+.stats {
+  padding-top: 50px;
+}
+.restartArrow {
+  padding-left: 150px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.health {
+  padding-left: 0;
+  font-size: 30px;
+}
+
+.health li {
+  list-style: none;
+  display: inline-block;
+}
+.modal-background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-box {
+  position: relative;
+  margin: 200px auto auto auto;
+  padding: 15px;
+  width: 400px;
+  height: auto;
+  background-color: #82b2d6;
+  border-radius: 10px;
+
+}
+
+.modal-heading {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+
+.gameOverMessage {
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+.lose {
+  background-color: #ef5858;
+}
+
+.playAgain {
+  cursor: pointer;
+}
+
+.modal-close {
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}

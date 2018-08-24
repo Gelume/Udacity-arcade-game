@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class = 'stats'>
+    <span class = 'score'></span>
+    <ul class="health">
+      <li><i class="heart">&#x1F499</i></li>
+      <li><i class="heart">&#x1F499</i></li>
+      <li><i class="heart">&#x1F499</i></li>
+    </ul>
+    <span class = 'playAgain restartArrow'>&#x21ba</span>
+  </div>
+  <div class='modal-background hide'>
+    <div class='modal-box'>
+      <div class='modal-heading'>
+        <h1 class = 'gameOverMessage'></h1>
+        <span class='modal-close'>x</span>
+      </div>
+      <div>
+        <p id="winnerScore"></p>
+        <div class='button'>
+          <button class="playAgain">Play again!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
